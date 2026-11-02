@@ -1,0 +1,20 @@
+{
+  "name": "dexa-hrms-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:host": "vite --config host-shell/vite.config.js host-shell --port 3000",
+    "dev:attendance": "vite --config mfe-attendance/vite.config.js mfe-attendance --port 3001",
+    "dev:employee": "vite --config mfe-employee/vite.config.js mfe-employee --port 3002"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.468.0",
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.3"
+  }
+}
